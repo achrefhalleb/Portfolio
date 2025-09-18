@@ -2,15 +2,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  height: 100%;
-  font-family: "Open Sans", sans-serif;
-  background-color: #040404;
-  color: #fff;
-  position: relative;
-  margin: 0;
-}
-
 body::before {
   content: "";
   position: fixed;
@@ -18,14 +9,15 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #040404 url("../img/A11.png") center center no-repeat;
+  background: #040404 url("../img/A11.png") center top no-repeat;
   background-size: cover;
+  background-attachment: scroll;   /* default: avoids some “zoom” issues */
   z-index: -1;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   body::before {
-    background-image: url("../img/A1.png");
+    background-attachment: fixed;
   }
 }
 
