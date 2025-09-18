@@ -25,7 +25,7 @@ body::before {
 
 @media (min-width: 1200px) {
   body::before {
-    background-image: url("../img/A11-desktop.png");
+    background-image: url("../img/A1.png");
   }
 }
 
