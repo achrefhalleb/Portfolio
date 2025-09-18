@@ -9,9 +9,10 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #040404 url("../img/A11.png") center top no-repeat;
-  background-size: cover;
-  background-attachment: scroll;   /* default: avoids some “zoom” issues */
+  background: #040404 url("../img/A11.png") 100% top no-repeat;
+  background-size: contain;      /* show 100% of the image */
+  background-attachment: fixed;  /* optional parallax */
+  background-color: #040404;     /* fills any side gaps */
   z-index: -1;
 }
 
