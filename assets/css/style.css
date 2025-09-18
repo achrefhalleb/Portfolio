@@ -23,9 +23,9 @@ body::before {
   z-index: -1;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   body::before {
-    background-attachment: fixed;
+    background-image: url("../img/A11-desktop.png");
   }
 }
 
