@@ -2,13 +2,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  font-family: "Open Sans", sans-serif;
-  background-color: #040404;
-  color: #fff;
-  position: relative;
-  background: transparent;
-}
 body::before {
   content: "";
   position: fixed;
